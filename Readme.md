@@ -1,7 +1,7 @@
-# 🧭 Deeks Gemini Thread Navigator Chrome Extension
+# 🧭 Deeks Thread Navigator Chrome Extension
 
 **Navigate long conversation threads instantly with a floating button and compact prompt menu.**  
-Currently stable on **ChatGPT** ✅. **Gemini** and **Perplexity** integrations are in progress.  
+Currently stable on **ChatGPT** ✅and **Gemini**.  
 
 ![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-brightgreen)
 ![Version](https://img.shields.io/badge/Version-1.0-blue)
@@ -43,7 +43,7 @@ Clone this repo or save the following core files into a single local folder (e.g
 
 1.  Open a chat on a supported platform (e.g., ChatGPT).
 2.  Look for the **floating clipboard button** 📋 anchored to the right edge of the chat UI.
-3.  Click the button to open the navigator panel.
+3.  Click the button to open the navigator panel and search the prompts you would like to go to.
 4.  **In the navigator panel:**
     * Click the **Prompt Row** → Smoothly jump to the AI's full reply in the main thread.
     * Click the **Clipboard Icon** → Copy the AI’s full response text to your clipboard.
