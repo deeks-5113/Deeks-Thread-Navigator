@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Thread Navigator (ChatGPT & Gemini)",
+  "version": "2.0",
+  "description": "Navigate conversation threads on ChatGPT and Gemini with a floating button",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.openai.com/*", 
+        "https://chatgpt.com/*",
+        "https://gemini.google.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
