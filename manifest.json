@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Thread Navigator by Deekshith",
-  "version": "2.0",
+  "version": "1.0",
   "description": "Navigate conversation threads on ChatGPT and Gemini with a floating button",
   "permissions": ["activeTab"],
   "content_scripts": [
